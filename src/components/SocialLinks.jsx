@@ -1,10 +1,15 @@
 import React from "react";
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 import styled from "styled-components";
 
 const SocialLinks = () => {
   return (
-    <Wrapper className="social-icons-group">
+    <Wrapper className="social-container">
       <div>
         <a href="#" target="_blank">
           <FaLinkedin className="icons" />
@@ -29,15 +34,16 @@ const SocialLinks = () => {
   );
 };
 
-const Wrapper = styled("div")`
+const Wrapper = styled('div')`
   display: flex;
   gap: 2rem;
+//   paddingTop: 2rem;
       div {
         // padding: 1rem;
         // border-radius: 50%;
         // border: 2px solid ${({ theme }) => theme.colors.white};
         .icons {
-          color: ${({ theme }) => theme.colors.black};
+          color: #ffffff;
           font-size: 2.4rem;
           position: relative;
           cursor: pointer;

@@ -15,16 +15,16 @@ html {
 }
 body {
   // background-color: #222;
-  color: 'white';
+  color: #ffffff;
   overflow-x: hidden;
-  scrollbar-color: rgb(98 84 243);
+  scrollbar-color: #222;
   scrollbar-width: thin;
 }
 body::-webkit-scrollbar {
   width: 1.5rem;
 }
 body::-webkit-scrollbar-track {
-   background-color: rgb(24 24 29);
+   background-color: #222;
 }
 body::-webkit-scrollbar-thumb {
  
@@ -34,23 +34,19 @@ body::-webkit-scrollbar-thumb {
     background-clip: content-box;
 }
 h1{
-  color:${({ theme }) => theme.colors.heading};
   font-size: 6rem;
   font-weight: 900;
 }
 h2 {
-   color: ${({ theme }) => theme.colors.heading};
    font-size: 4.4rem;
    font-weight: 300;
    white-space: normal;
-   text-align: center;
   }
   h3 {
   font-size: 1.8rem;
   font-weight: 400;
 }
 p {
-  color: ${({ theme }) => theme.colors.text};
   opacity: .7;
   font-size: 1.65rem;
   line-height: 1.5;
@@ -88,7 +84,7 @@ li {
     }
     input, textarea{
     max-width: 50rem;
-    color: ${({ theme }) => theme.colors.black};
+    // color: ${({ theme }) => theme.colors.black};
     padding: 1.6rem 2.4rem;
     border: 1px solid ${({ theme }) => theme.colors.border};
     text-transform: uppercase;
@@ -98,7 +94,7 @@ li {
     max-width: 16rem;
     margin-top: 2rem;
     background-color: ${({ theme }) => theme.colors.btn};
-    color: ${({ theme }) => theme.colors.white};
+    // color: ${({ theme }) => theme.colors.white};
     padding: 1.4rem 2.2rem;
     border-style: solid;
     border-width: .1rem;

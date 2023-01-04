@@ -7,7 +7,8 @@ const Button = styled("div")`
   background-color: #f06d55;
   color: rgb(255 255 255);
   padding: 1.4rem 2.4rem;
-  border: none;
+  // border: none;
+  border-radius: 10px;
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
