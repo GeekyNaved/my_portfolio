@@ -45,7 +45,7 @@ const Wrapper = styled('div')`
         .icons {
           color: #ffffff;
           font-size: 2.4rem;
-          position: relative;
+          // position: relative;
           cursor: pointer;
         }
       }

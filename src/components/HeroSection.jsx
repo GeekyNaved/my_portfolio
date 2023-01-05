@@ -13,7 +13,7 @@ const HeroSection = () => {
           </h1>
           <p className="hero-para">Front-End Developer, Programmer</p>
           <SocialLinks />
-          <Button className="btn hireme-btn">
+          <Button className="btn">
             <a href="#order">Lets chat</a>
           </Button>
         </div>

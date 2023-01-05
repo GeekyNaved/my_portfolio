@@ -33,6 +33,20 @@ body::-webkit-scrollbar-thumb {
     border-radius: 9px;
     background-clip: content-box;
 }
+.icons {
+  color: #ffffff;
+  font-size: 2.4rem;
+  position: relative;
+  cursor: pointer;
+}
+.email-link {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #ffffff;
+}
 h1{
   font-size: 6rem;
   font-weight: 900;
@@ -42,9 +56,9 @@ h2 {
    font-weight: 300;
    white-space: normal;
   }
-  h3 {
-  font-size: 1.8rem;
-  font-weight: 400;
+h3 {
+  font-size: 3rem;
+  font-weight: 300;
 }
 p {
   opacity: .7;
