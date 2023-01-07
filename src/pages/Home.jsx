@@ -1,5 +1,6 @@
 import React from "react";
 import AboutSection from "../components/AboutSection";
+import Contact from "../components/Contact";
 import HeroSection from "../components/HeroSection";
 
 const Home = () => {
@@ -7,8 +8,7 @@ const Home = () => {
     <>
       <HeroSection />
       <AboutSection />
-      {/* <Services /> */}
-      {/* <Contact /> */}
+      <Contact />
     </>
   );
 };

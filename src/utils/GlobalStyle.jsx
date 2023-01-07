@@ -52,12 +52,12 @@ h1{
   font-weight: 900;
 }
 h2 {
-   font-size: 4.4rem;
+   font-size: 3rem;
    font-weight: 300;
    white-space: normal;
   }
 h3 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 300;
 }
 p {
