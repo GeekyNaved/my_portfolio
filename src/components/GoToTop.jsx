@@ -47,7 +47,7 @@ const Wrapper = styled.section`
     width: 6rem;
     height: 6rem;
     color: #fff;
-    background-color: ${({ theme }) => theme.colors.btn};
+    background-color: #f06d55;
     box-shadow: ${({ theme }) => theme.colors.shadow};
     border-radius: 50%;
     position: fixed;
