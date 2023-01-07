@@ -25,7 +25,7 @@ const AboutSection = () => {
               <MdOutlineMail className="icons" />
               navedahmed040@gmail.com
             </a>
-            <a className="download-resume-btn" href="resume_naved.pdf" download>
+            <a className="download-resume-btn" href="/resume_naved.pdf" download>
               <FaFileDownload className="icons" />
               Download Resume
             </a>
@@ -52,7 +52,7 @@ const Wrapper = styled.section`
     margin-top: 1.5rem;
     max-width: 22rem;
     text-decoration: none;
-    background-color: #f06d55;
+    background-color: crimson;
     color: rgb(255 255 255);
     padding: 1.2rem 1.4rem;
     font-size: 1.5rem;
